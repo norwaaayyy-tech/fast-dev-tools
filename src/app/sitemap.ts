@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { TOOLS_LIST } from '@/lib/constants/tools-list';
 
+export const dynamic = 'force-static';
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://fastdevtools.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {

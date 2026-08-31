@@ -1,5 +1,5 @@
 {
-  "name": "1",
+  "name": "fast-dev-tools",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -30,6 +30,7 @@
     "jsdom": "^30.0.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.11",
+    "wrangler": "^4.127.1"
   }
 }
